@@ -10,6 +10,7 @@ export default function Contact() {
     <>
       <Hero
         backgroundImage="https://drarvindersingh.com/wp-content/uploads/2024/07/Importance-Of-a-Consultant-in-The-Hospital-Segment.jpg"
+        backgroundOverlay=""
         smallLabel="Contact Us"
         mainHeading="Let's build something better."
         highlightedWords={["better."]}
@@ -140,9 +141,15 @@ export default function Contact() {
 
       {/* Map (Placeholder for a real iframe map) */}
       <section className="h-[400px] w-full bg-slate-200 relative">
-        <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-          <p className="flex items-center gap-2"><MapPin /> Interactive Map Here</p>
-        </div>
+       <div className="relative w-full h-[450px] rounded-xl overflow-hidden">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=..."
+    className="w-full h-full border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
       </section>
     </>
   );

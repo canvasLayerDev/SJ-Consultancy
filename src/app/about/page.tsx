@@ -37,7 +37,7 @@ export default function About() {
               Started in 2024, we are a young and dynamic firm with core expertise in fulfilling any requirements for Hospitals at ONE point by a specialized team at an affordable cost.
             </p>
             <p className="text-sm md:text-base leading-7 text-gray-600">
-              We recognized a silent crisis in hospital design and management—bricks and beds were laid, but behavior, psychology, and compliance were an afterthought. Our behavioral-based planning ensures hospitals feel human, not just clinical.
+             We recognized a silent crisis in hospital design and management bricks and beds were laid, but behavior, psychology, and compliance were an afterthought. Our behavioral-based planning ensures hospitals feel human, not just clinical
             </p>
           </div>
         </div>

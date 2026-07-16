@@ -54,11 +54,11 @@ export default function Services() {
               </p>
               <ul className="space-y-4 mb-8">
                 {[
-                  "Credibility & Trust — A recognised mark of quality",
-                  "Empanelment Advantage — Preferred for CGHS, ECHS, PSUs",
-                  "Higher Reimbursement — Better payer rates",
-                  "Fewer Clinical Errors — Standardized protocols",
-                  "Better Outcomes — Improved patient satisfaction"
+                  "Credibility & Trust A recognised mark of quality",
+                  "Empanelment Advantage  Preferred for CGHS, ECHS, PSUs",
+                  "Higher Reimbursement Better payer rates",
+                  "Fewer Clinical Errors  Standardized protocols",
+                  "Better Outcomes Improved patient satisfaction"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />

@@ -17,7 +17,7 @@ export default function Home() {
         smallLabel="SJ Consultancy"
         mainHeading="Your health is our priority"
         highlightedWords={["priority"]}
-        description="We don't just consult — we walk with you. 50+ doctors already trust SJ Consultancy to guide their hospitals through NABH-compliant, behaviour-driven design and accreditation."
+        description="We don't just consult  we walk with you. 50+ doctors already trust SJ Consultancy to guide their hospitals through NABH-compliant, behaviour-driven design and accreditation."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact"
         secondaryButtonText="Learn More"

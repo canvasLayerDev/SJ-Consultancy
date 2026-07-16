@@ -149,7 +149,7 @@ export function Hero({
 
             {/* Description */}
             {description && (
-              <p className="text-sm md:text-base leading-7 text-gray-600 mb-8 lg:mb-10 font-medium max-w-2xl">
+              <p className="text-sm md:text-base leading-7 text-gray-800 mb-8 lg:mb-10 font-medium max-w-2xl">
                 {description}
               </p>
             )}
