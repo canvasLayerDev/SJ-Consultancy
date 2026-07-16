@@ -29,7 +29,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="mb-6 text-sm leading-relaxed text-slate-400">
-              We don't just consult — we walk with you. Empowering healthcare facilities with behavioral-based planning, NABH & NABL accreditation, and quality management.
+              We don't just consult we walk with you. Empowering healthcare facilities with behavioral-based planning, NABH & NABL accreditation, and quality management.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors" aria-label="Facebook">
@@ -92,7 +92,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm">
                 <MapPin size={18} className="text-primary shrink-0 mt-0.5" />
-                <span>Corporate Office – 133, Nirankari colony Delhi- 9</span>
+                <span>Corporate Office - 133, Nirankari colony Delhi- 9</span>
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Phone size={18} className="text-primary shrink-0" />
@@ -111,7 +111,17 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {currentYear} SJ Consultancy. All rights reserved.</p>
+          <p className="text-center md:text-left text-sm">
+  © {currentYear} SJ Consultancy. All rights reserved. | Developed by{" "}
+  <a
+    href="https://adgrowtech.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-medium hover:underline"
+  >
+    Ad Growtech Pvt. Ltd.
+  </a>
+</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

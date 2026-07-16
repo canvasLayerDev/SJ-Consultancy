@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const FEATURES = [
-  "Already doing project – Flores Hospital 100 bedded",
+  "Already doing project - Flores Hospital 100 bedded",
   "20 Hospitals NABH/NABL Completed",
   "Hospital Planning & Development",
   "Fastest NABH Compliance with minimum NCs",
