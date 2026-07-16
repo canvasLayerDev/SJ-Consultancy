@@ -14,12 +14,12 @@ const PROCESS_STEPS = [
 
 export function ProcessPreview() {
   return (
-    <section className="py-24 bg-neutral-light relative">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24">
+    <section className="py-10 md:py-20 bg-neutral-light relative">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-end justify-between mb-16 gap-8">
           <div className="max-w-2xl">
             <span className="text-primary font-bold uppercase tracking-wider text-sm mb-4 block">Our Process</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-900 leading-tight">
+            <h2 className="text-xl md:text-3xl font-heading font-bold text-slate-900 leading-tight">
               A clear path to <span className="text-primary">Accreditation</span>.
             </h2>
           </div>
@@ -46,8 +46,8 @@ export function ProcessPreview() {
                 <div className="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg mb-6 shadow-md group-hover:scale-110 transition-transform">
                   {item.step}
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">{item.title}</h3>
-                <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+                <h3 className="text-lg md:text-xl font-semibold leading-snug text-slate-900 mb-3">{item.title}</h3>
+                <p className="text-sm md:text-base leading-7 text-gray-600">{item.desc}</p>
               </div>
             </motion.div>
           ))}

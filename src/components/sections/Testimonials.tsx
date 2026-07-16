@@ -26,12 +26,12 @@ const TESTIMONIALS = [
 
 export function Testimonials() {
   return (
-    <section className="py-24 bg-neutral-light relative overflow-hidden">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24">
+    <section className="py-10 md:py-20 bg-neutral-light relative overflow-hidden">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-bold uppercase tracking-wider text-sm mb-4 block">Testimonials</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-900 leading-tight mb-6">
+          <h2 className="text-xl md:text-3xl font-heading font-bold text-slate-900 leading-tight mb-6">
             Trusted by Healthcare Leaders
           </h2>
         </div>
@@ -48,7 +48,7 @@ export function Testimonials() {
             >
               <Quote className="text-primary/20 w-12 h-12 absolute top-6 right-6 rotate-12" />
               
-              <p className="text-slate-700 leading-relaxed mb-8 relative z-10 flex-grow italic">
+              <p className="text-sm md:text-base leading-7 text-gray-600 mb-8 relative z-10 flex-grow italic">
                 "{testimonial.text}"
               </p>
               

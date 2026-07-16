@@ -5,8 +5,8 @@ import { Button } from "../ui/Button";
 
 export function AboutPreview() {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24">
+    <section className="py-10 md:py-20 bg-white relative overflow-hidden">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
           {/* Image Side */}
@@ -51,13 +51,13 @@ export function AboutPreview() {
               <span className="w-8 h-px bg-primary" />
               The Silent Crisis
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-900 leading-tight mb-6">
+            <h2 className="text-xl md:text-3xl font-heading font-bold text-slate-900 leading-tight mb-6">
               Not Just Bricks and Beds.
             </h2>
-            <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+            <p className="text-sm md:text-base leading-7 text-gray-600 mb-6">
               Walk into most hospitals in India today, and you'll notice the same story repeating itself: confused patients wandering corridors, overworked doctors navigating spaces that were never designed with them in mind and administrators struggling to meet accreditation standards.
             </p>
-            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+            <p className="text-sm md:text-base leading-7 text-gray-600 mb-8">
               We believe hospitals shouldn't just be built — they should be <span className="text-primary font-semibold italic">designed to behave well</span>. 
             </p>
             <Button href="/about" size="lg" icon={

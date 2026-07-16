@@ -8,6 +8,7 @@ import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { ProcessPreview } from "@/components/sections/ProcessPreview";
 import { HospitalShowcase } from "@/components/sections/HospitalShowcase";
 import { Testimonials } from "@/components/sections/Testimonials";
+import { OurTeam } from "@/components/sections/OurTeam";
 
 export default function Home() {
   return (
@@ -21,17 +22,18 @@ export default function Home() {
         primaryButtonLink="/contact"
         secondaryButtonText="Learn More"
         secondaryButtonLink="/about"
-        heroIllustration="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1000&auto=format&fit=crop"
+        heroIllustration="./doctor-removebg.png"
         heroHeight="screen"
         heroAlignment="left"
-        backgroundGradient="bg-gradient-to-r from-blue-50/80 via-teal-50/50 to-transparent"
+        imagePosition="right"
+        backgroundGradient="bg-gradient-to-br from-primary/10 via-white to-accent/10"
       />
       <TrustStrip />
       <AboutPreview />
       <ServicesPreview />
       <WhyChooseUs />
       <ProcessPreview />
-      <HospitalShowcase />
+      <OurTeam />
       <Testimonials />
     </>
   );

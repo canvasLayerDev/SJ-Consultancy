@@ -14,8 +14,8 @@ const FEATURES = [
 
 export function WhyChooseUs() {
   return (
-    <section className="py-24 bg-white relative">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24">
+    <section className="py-10 md:py-20 bg-white relative">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           
           <motion.div 
@@ -26,7 +26,7 @@ export function WhyChooseUs() {
             className="w-full lg:w-1/2"
           >
             <span className="text-primary font-bold uppercase tracking-wider text-sm mb-4 block">Why SJ Consultancy</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-900 leading-tight mb-8">
+            <h2 className="text-xl md:text-3xl font-heading font-bold text-slate-900 leading-tight mb-8">
               Built on <span className="text-primary">Trust</span> & <span className="text-accent">Expertise</span>
             </h2>
             
@@ -43,7 +43,7 @@ export function WhyChooseUs() {
                   <div className="mt-1 bg-primary/10 rounded-full p-1">
                     <CheckCircle2 className="w-6 h-6 text-primary" />
                   </div>
-                  <p className="text-lg text-slate-700 font-medium">{feature}</p>
+                  <p className="text-sm md:text-base leading-7 text-gray-600 font-medium">{feature}</p>
                 </motion.div>
               ))}
             </div>
@@ -62,12 +62,12 @@ export function WhyChooseUs() {
               <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary rounded-full blur-[80px] opacity-50" />
               
               <div className="relative z-10">
-                <h3 className="text-2xl md:text-3xl font-heading font-bold mb-6">The Tier-2 Opportunity</h3>
-                <p className="text-slate-300 leading-relaxed mb-8 text-lg">
+                <h3 className="text-lg md:text-xl font-semibold leading-snug mb-6">The Tier-2 Opportunity</h3>
+                <p className="text-sm md:text-base leading-7 text-slate-300 mb-8">
                   As India's Tier-2 hospital boom accelerates, the hospitals that will thrive are the ones built right the first time — compliant, efficient, and human-centred.
                 </p>
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
-                  <p className="text-white font-medium italic text-lg leading-relaxed border-l-4 border-accent pl-4">
+                  <p className="text-sm md:text-base leading-7 text-white font-medium italic border-l-4 border-accent pl-4">
                     "SJ Consultancy brings together psychology, green architecture, and NABH expertise to help redefine what Indian healthcare looks like, city by city."
                   </p>
                 </div>
