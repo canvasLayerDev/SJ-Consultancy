@@ -62,12 +62,12 @@ export function ServicesPreview() {
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
 
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-bold uppercase tracking-wider text-sm mb-4 block">Our Expertise</span>
-          <h2 className="text-xl md:text-3xl font-heading font-bold text-slate-900 leading-tight mb-6">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+          <span className="text-primary font-bold uppercase tracking-wider text-xs sm:text-sm mb-3 sm:mb-4 block">Our Expertise</span>
+          <h2 className="text-2xl sm:text-3xl font-heading font-bold text-slate-900 leading-tight mb-4 sm:mb-6">
             Comprehensive Solutions for Modern Healthcare
           </h2>
-          <p className="text-sm md:text-base leading-7 text-gray-600">
+          <p className="text-sm md:text-base leading-relaxed sm:leading-7 text-gray-600">
             We offer specialized consultancy services designed to elevate your facility&apos;s standards, ensure compliance, and optimize patient care.
           </p>
         </div>
@@ -78,21 +78,21 @@ export function ServicesPreview() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-10 sm:mb-16"
         >
           {SERVICES.map((service, index) => (
             <motion.div
               key={index}
               variants={cardVariants}
-              className="group bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-primary/20"
+              className="group bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-primary/20"
             >
-              <div className="w-16 h-16 rounded-2xl bg-primary/5 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-primary/5 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                 {service.icon}
               </div>
-              <h3 className="text-lg md:text-xl font-semibold leading-snug text-slate-900 mb-4 group-hover:text-primary transition-colors">
+              <h3 className="text-lg md:text-xl font-semibold leading-snug text-slate-900 mb-3 sm:mb-4 group-hover:text-primary transition-colors">
                 {service.title}
               </h3>
-              <p className="text-sm md:text-base leading-7 text-gray-600 mb-6">
+              <p className="text-sm md:text-base leading-relaxed sm:leading-7 text-gray-600 mb-6">
                 {service.description}
               </p>
               <div className="flex items-center text-primary font-semibold text-sm group/link">

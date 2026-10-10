@@ -32,10 +32,10 @@ export function AboutPreview() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl max-w-[200px]"
+              className="absolute -bottom-6 right-2 sm:-right-4 md:-right-8 bg-white p-4 sm:p-6 rounded-2xl shadow-xl max-w-[170px] sm:max-w-[200px] border border-slate-100"
             >
-              <div className="text-4xl font-heading font-bold text-primary mb-1">50+</div>
-              <div className="text-sm text-slate-600 font-medium">Doctors trust us for their hospitals</div>
+              <div className="text-3xl sm:text-4xl font-heading font-bold text-primary mb-1">50+</div>
+              <div className="text-xs sm:text-sm text-slate-600 font-medium">Doctors trust us for their hospitals</div>
             </motion.div>
           </motion.div>
 
