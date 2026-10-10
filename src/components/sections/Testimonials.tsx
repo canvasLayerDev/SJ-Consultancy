@@ -49,7 +49,7 @@ export function Testimonials() {
               <Quote className="text-primary/20 w-12 h-12 absolute top-6 right-6 rotate-12" />
               
               <p className="text-sm md:text-base leading-7 text-gray-600 mb-8 relative z-10 flex-grow italic">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
               
               <div className="mt-auto relative z-10 pt-6 border-t border-slate-100">

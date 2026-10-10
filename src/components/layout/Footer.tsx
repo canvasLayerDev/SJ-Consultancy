@@ -29,7 +29,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="mb-6 text-sm leading-relaxed text-slate-400">
-              We don't just consult we walk with you. Empowering healthcare facilities with behavioral-based planning, NABH & NABL accreditation, and quality management.
+              We don&apos;t just consult we walk with you. Empowering healthcare facilities with behavioral-based planning, NABH & NABL accreditation, and quality management.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors" aria-label="Facebook">

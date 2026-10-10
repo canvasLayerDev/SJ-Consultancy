@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
-
 import { ShieldCheck } from "lucide-react";
 
 const TRUST_ITEMS = [
@@ -17,14 +15,6 @@ const TRUST_ITEMS = [
 ];
 
 export function TrustStrip() {
-  const [width, setWidth] = useState(0);
-  const carousel = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (carousel.current) {
-      setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-    }
-  }, []);
 
   return (
     <section className="bg-slate-900 py-5 overflow-hidden border-y border-slate-800">

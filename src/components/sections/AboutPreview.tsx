@@ -55,10 +55,10 @@ export function AboutPreview() {
               Not Just Bricks and Beds.
             </h2>
             <p className="text-sm md:text-base leading-7 text-gray-600 mb-6">
-              Walk into most hospitals in India today, and you'll notice the same story repeating itself: confused patients wandering corridors, overworked doctors navigating spaces that were never designed with them in mind and administrators struggling to meet accreditation standards.
+              Walk into most hospitals in India today, and you&apos;ll notice the same story repeating itself: confused patients wandering corridors, overworked doctors navigating spaces that were never designed with them in mind and administrators struggling to meet accreditation standards.
             </p>
             <p className="text-sm md:text-base leading-7 text-gray-600 mb-8">
-              We believe hospitals shouldn't just be built  they should be<span className="text-primary font-semibold italic">designed to behave well</span>. 
+              We believe hospitals shouldn&apos;t just be built  they should be<span className="text-primary font-semibold italic">designed to behave well</span>. 
             </p>
             <Button href="/about" size="lg" icon={
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

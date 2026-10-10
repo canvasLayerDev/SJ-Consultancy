@@ -6,7 +6,6 @@ import { AboutPreview } from "@/components/sections/AboutPreview";
 import { ServicesPreview } from "@/components/sections/ServicesPreview";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { ProcessPreview } from "@/components/sections/ProcessPreview";
-import { HospitalShowcase } from "@/components/sections/HospitalShowcase";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { OurTeam } from "@/components/sections/OurTeam";
 

@@ -62,7 +62,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg md:text-xl font-semibold leading-snug text-slate-900 mb-2">Call Us</h3>
                     <div className="flex flex-col text-sm md:text-base leading-7 text-gray-600">
-                      <span>Dr. Jatin Raj / Dr. Shahrukh Khan</span>
+                      <span>Dr. Jatin Raj (Founder & Director)</span>
                       <a href="tel:+919355237556" className="hover:text-primary transition-colors">+91 93552 37556</a>
                       <a href="tel:+917983394462" className="hover:text-primary transition-colors">+91 79833 94462</a>
                       <a href="tel:+916289993423" className="hover:text-primary transition-colors">+91 62899 93423</a>

@@ -68,7 +68,7 @@ export function ServicesPreview() {
             Comprehensive Solutions for Modern Healthcare
           </h2>
           <p className="text-sm md:text-base leading-7 text-gray-600">
-            We offer specialized consultancy services designed to elevate your facility's standards, ensure compliance, and optimize patient care.
+            We offer specialized consultancy services designed to elevate your facility&apos;s standards, ensure compliance, and optimize patient care.
           </p>
         </div>
 

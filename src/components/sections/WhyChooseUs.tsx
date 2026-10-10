@@ -64,11 +64,11 @@ export function WhyChooseUs() {
               <div className="relative z-10">
                 <h3 className="text-lg md:text-xl font-semibold leading-snug mb-6">The Tier-2 Opportunity</h3>
                 <p className="text-sm md:text-base leading-7 text-slate-300 mb-8">
-                 As India's Tier-2 hospital boom accelerates, the hospitals that will thrive are the ones built right the first time  compliant, efficient, and human-centred.
+                 As India&apos;s Tier-2 hospital boom accelerates, the hospitals that will thrive are the ones built right the first time  compliant, efficient, and human-centred.
                 </p>
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
                   <p className="text-sm md:text-base leading-7 text-white font-medium italic border-l-4 border-accent pl-4">
-                    "SJ Consultancy brings together psychology, green architecture, and NABH expertise to help redefine what Indian healthcare looks like, city by city."
+                    &ldquo;SJ Consultancy brings together psychology, green architecture, and NABH expertise to help redefine what Indian healthcare looks like, city by city.&rdquo;
                   </p>
                 </div>
               </div>
